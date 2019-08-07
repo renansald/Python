@@ -1,0 +1,6 @@
+inteiro = input('Infomre algo: ')
+f = float(input('Infomre algo: '))
+g = bool(input('Digite algo: '))
+print('tipo primitivo {}\nÉ numero {}\nÉ letra {}\nÉ alfanumérico {}\n\n'.format(type(inteiro), inteiro.isnumeric(), inteiro.isalpha(), inteiro.isalnum()))
+print('tipo primitivo {}\n\n'.format(type(f)))
+print('tipo primitivo {}\n\n'.format(type(g)))
